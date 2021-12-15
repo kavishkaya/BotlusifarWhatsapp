@@ -1,5 +1,5 @@
 
-/* Copyright (C) 2021 KAVIYAAH - Alexa Team  ,  Lusifar whatsapp bot owner
+/* Copyright (C) 2021 KAVIYAAH - Alexa Team  ,  king Max ᵇʰᵃʳᵃᵗʰᵃ whatsapp bot owner
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 kaviyaah - kavishka sandaruwan
@@ -12,7 +12,7 @@ const chalk = require('chalk');
 const config = require('./config');
 const simpleGit = require('simple-git');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./Lusifar/');
+const {Message, StringSession, Image, Video} = require('./king Max ᵇʰᵃʳᵃᵗʰᵃ/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const git = simpleGit();
@@ -100,7 +100,7 @@ async function whatsAsena () {
     })    
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Lusifar')}${chalk.blue.bold('bot')}
+        console.log(`${chalk.green.bold('king Max ᵇʰᵃʳᵃᵗʰᵃ')}${chalk.blue.bold('bot')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
     });
@@ -138,7 +138,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('Lusifar 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 👻'));
+            chalk.green.bold('king Max ᵇʰᵃʳᵃᵗʰᵃ 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 👻'));
 
     
             if (config.LANG == 'EN' || config.LANG == 'SI') {
@@ -147,14 +147,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                 if (commits.total === 0) {
                    
                     var webimage = await axios.get(`https://telegra.ph/file/2b96f9eaba69490ae689d.jpg`, { responseType: 'arraybuffer' })
-                    await conn.sendMessage(conn.user.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n\n\n *⚡powerd by lusifar*' })
-                    await conn.sendMessage(conn.user.jid, "Lusifar ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
-                    await conn.sendMessage(conn.user.jid, "```Lusifar WORKING " + config.WORKTYPE + "```" , MessageType.text);
+                    await conn.sendMessage(conn.user.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n\n\n *⚡powerd by king Max ᵇʰᵃʳᵃᵗʰᵃ*' })
+                    await conn.sendMessage(conn.user.jid, "king Max ᵇʰᵃʳᵃᵗʰᵃ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+                    await conn.sendMessage(conn.user.jid, "```king Max ᵇʰᵃʳᵃᵗʰᵃ WORKING " + config.WORKTYPE + "```" , MessageType.text);
                 
 //======================test to my number
-                    await conn.sendMessage(config.LOGSETTINGS, '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n\n\n *⚡powerd by lusifar*', MessageType.text);
-                    await conn.sendMessage(config.LOGSETTINGS, "Lusifar ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
-                    await conn.sendMessage(config.LOGSETTINGS, "```Lusifar WORKING " + config.WORKTYPE + "```" , MessageType.text);
+                    await conn.sendMessage(config.LOGSETTINGS, '\n\n\n\n' + Lang.UPDATE +'\n\n\n\n\n\n *⚡powerd by king Max ᵇʰᵃʳᵃᵗʰᵃ*', MessageType.text);
+                    await conn.sendMessage(config.LOGSETTINGS, "king Max ᵇʰᵃʳᵃᵗʰᵃ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+                    await conn.sendMessage(config.LOGSETTINGS, "```king Max ᵇʰᵃʳᵃᵗʰᵃ WORKING " + config.WORKTYPE + "```" , MessageType.text);
                    
 var unique = conn.user.jid.split('@')[0]
 
@@ -169,13 +169,13 @@ var unique = conn.user.jid.split('@')[0]
                     );
                   
                     var webimage = await axios.get(`https://telegra.ph/file/2b96f9eaba69490ae689d.jpg`, { responseType: 'arraybuffer' })
-                    await conn.sendMessage(conn.user.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: newzelme + '```'+'\n\n *⚡powerd by lusifar*' })
+                    await conn.sendMessage(conn.user.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg  , caption: newzelme + '```'+'\n\n *⚡powerd by king Max ᵇʰᵃʳᵃᵗʰᵃ*' })
 
-                            await conn.sendMessage(conn.user.jid, "Lusifar ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+                            await conn.sendMessage(conn.user.jid, "king Max ᵇʰᵃʳᵃᵗʰᵃ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
                             await conn.sendMessage(conn.user.jid, "``` WORKING " + config.WORKTYPE + "```" , MessageType.text);
 //==================================================
-                            await conn.sendMessage(config.LOGSETTINGS, newzelme + '```'+'\n\n *⚡powerd by lusifar*', MessageType.text);
-                            await conn.sendMessage(config.LOGSETTINGS, "Lusifar ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+                            await conn.sendMessage(config.LOGSETTINGS, newzelme + '```'+'\n\n *⚡powerd by king Max ᵇʰᵃʳᵃᵗʰᵃ*', MessageType.text);
+                            await conn.sendMessage(config.LOGSETTINGS, "king Max ᵇʰᵃʳᵃᵗʰᵃ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
                             await conn.sendMessage(config.LOGSETTINGS, "``` WORKING " + config.WORKTYPE + "```" , MessageType.text);
                           
 
@@ -299,13 +299,13 @@ var unique = conn.user.jid.split('@')[0]
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '__Lusifar_☠☠_[error] ' +
+                                await conn.sendMessage(conn.user.jid, '__king Max ᵇʰᵃʳᵃᵗʰᵃ_☠☠_[error] ' +
                                     '\n\n*👻 ' + error + '*\n'
                                     , MessageType.text);
                              
                              
                              
-                                     await conn.sendMessage(config.LOGSETTINGS, '__Lusifar_☠☠_[error] ' +
+                                     await conn.sendMessage(config.LOGSETTINGS, '__king Max ᵇʰᵃʳᵃᵗʰᵃ_☠☠_[error] ' +
                                     '\n\n*👻 ' + error + '*\n'
                                     , MessageType.text);
                             }
